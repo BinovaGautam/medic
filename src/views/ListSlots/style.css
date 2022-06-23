@@ -1,0 +1,131 @@
+.list__slots{
+}
+
+.list__slots-header{
+    padding: 30px;
+    column-gap: 2rem;
+    background-color: #fff;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.list__slots-header__button{
+    background-color: #24DD85;
+    height: 42px;
+    width: 180px;
+}
+
+.list__slots-table__container{
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #fff;
+    overflow-y : auto;
+    /* padding: 0 30px; */
+}
+
+.list__slots-table__scroll{
+    height: 75%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+/* Search And Date  */
+.search__date{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    width: 100%;
+}
+
+.search,
+.date{
+    border: 1px solid #AAAAAA;
+}
+
+.search{
+    border-right: none;
+    position: relative;
+}
+
+
+.search__input{
+    width: 100%;
+    height: 42px;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+}
+
+.date__input{
+    height: 42px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    
+}
+
+
+.search__icon-wrapper{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+    width: 50px;   
+}
+
+.search__icon{
+    color: #C9CED6;
+    font-size: 1.5rem;
+}
+
+
+/* Table */
+
+table,
+tr{
+    width: 100%;
+}
+
+.table__data-row:hover{
+    background-color: #EEF9FF;
+}
+
+.head-cell{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    background-color: #fff;
+}
+
+.table-header,
+.head-cell{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.table__body{
+    border-top: none !important;
+}
+
+.head-cell,
+.cell{
+    font-size: .9rem;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+
+.cell{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.td__icons{
+    gap: .5rem;
+    justify-content: end;
+}
+
+.td__icon{
+    font-size: 1.5rem;
+    color: #AAAAAA;
+}
+

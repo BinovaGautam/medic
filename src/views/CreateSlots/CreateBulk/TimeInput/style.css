@@ -1,0 +1,30 @@
+.input__time-dropdown{
+    width: 76px;
+}
+
+.input__time-start{
+    row-gap: .5rem;
+}
+
+.input__time-start__time{
+    column-gap: 1.5rem;
+}
+
+.input__time-start__hour{
+    row-gap: .5rem;
+}
+
+.input__time-start__hour-heading{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.input__time-start__description{
+    color: #AAAAAA;
+    font-size: .8rem;
+}
+
+.input__time-warn__text{
+    color: #FF0000;
+    font-size: .8rem;
+}

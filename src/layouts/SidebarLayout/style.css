@@ -1,0 +1,23 @@
+.sidbar__layout{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidbar__layout-content{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+}
+
+
+.sidebar__layout-body{
+    background-color: #FAFBFD;
+}
+
+.sidebar__layout-body-scroll{
+    overflow: hidden;
+    height: calc(100vh - 4rem);
+    overflow-y: scroll;
+}

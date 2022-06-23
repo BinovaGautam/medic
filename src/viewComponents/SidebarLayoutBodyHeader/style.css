@@ -1,0 +1,25 @@
+.slb__header{
+    border-bottom: 1px solid #E5E5E5;
+    padding: 1.7rem;
+}
+
+.slb__header-left,
+.slb__header-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.slb__header-content{
+    justify-content: space-between;
+}
+
+.slb__header-left{
+    column-gap: 1.5rem;
+}
+
+.slb__header-title{
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}

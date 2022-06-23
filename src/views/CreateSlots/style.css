@@ -1,0 +1,19 @@
+.create__slot{
+    height: 100%;
+}
+
+.create__slot-body{
+    background-color: #fff;
+    height: 100%;
+}
+
+.create__slot-tabs{
+    padding-left: 30px;
+    padding-top: 30px;
+    background-color: #FAFBFD;    
+}
+
+.nav-link {
+    padding: .7rem 2rem;
+    font-weight: 600;
+}

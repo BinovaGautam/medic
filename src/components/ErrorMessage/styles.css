@@ -1,0 +1,25 @@
+.error__message-container{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    /* border : 1px solid #AAAAAA; */
+    border-radius : .25rem;
+    padding : 1rem;
+}
+.error__message {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  column-span: all;
+}
+.error__message-icon {
+  color: #ff0000;
+  font-size: 1.5rem;
+}
+.success__message-icon{
+    color: #23cffd;
+    font-size: 1.5rem;
+}
+.warning__message-icon{
+    color: #ffc000;
+    font-size: 1.5rem;
+}

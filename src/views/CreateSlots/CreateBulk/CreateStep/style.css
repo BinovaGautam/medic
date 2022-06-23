@@ -1,0 +1,19 @@
+.create__bulk-step-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.create__bulk-step__heading{
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.create__bulk-step__description{
+    font-size: .9rem;
+    color: #AAAAAA;
+}
+
+.create__bulk-step__tool{
+    column-gap: 1rem;
+}
